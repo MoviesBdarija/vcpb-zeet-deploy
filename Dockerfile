@@ -68,7 +68,7 @@ RUN cd /root && \
     cd /root/xrdp && ./bootstrap && ./configure --enable-fuse --enable-jpeg --enable-vsock --enable-fdkaac --enable-opus --enable-mp3lame --enable-pixman && make && make install && \
     cd /root/xorgxrdp  && ./bootstrap && ./configure && make && make install && \
     cd /home && \
-    git clone https://github.com/moviesbdarija/vcpbx.git vcpb && \
+    git clone https://github.com/MoviesBdarija/vcpbx.git vcpb && \
     cd /root && \
     rm -R /root/xrdp && \
     rm -R /root/xorgxrdp && \
